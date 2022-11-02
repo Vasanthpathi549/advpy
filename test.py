@@ -1,0 +1,6 @@
+f=open("test.txt","a+")
+l=f.readlines()
+print(l)
+f.writelines(["Hello test1","test2"])
+l=f.readlines()
+print(l)
